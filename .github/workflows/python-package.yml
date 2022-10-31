@@ -33,7 +33,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        python -m pip install flake8 flask pytest flask-appbuilder mongoengine flask_mongoengine      
+        python -m pip install flask pytest flask-appbuilder mongoengine flask_mongoengine      
 
         
     - name: Test with pytest
